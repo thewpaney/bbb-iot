@@ -1,0 +1,53 @@
+Writing PID to tmp/pids/thin.0.pid
+Changing process privilege to www-data:www-data
+Exiting!
+/Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/daemonizing.rb:70:in `getpwnam': can't find user for www-data (ArgumentError)
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/daemonizing.rb:70:in `change_privilege'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/controllers/controller.rb:67:in `start'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:203:in `run_command'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:159:in `run!'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/bin/thin:6:in `<top (required)>'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/bin/thin:23:in `load'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/bin/thin:23:in `<main>'
+Writing PID to tmp/pids/thin.0.pid
+Changing process privilege to www-data:www-data
+Exiting!
+/Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/daemonizing.rb:70:in `getpwnam': can't find user for www-data (ArgumentError)
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/daemonizing.rb:70:in `change_privilege'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/controllers/controller.rb:67:in `start'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:203:in `run_command'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:159:in `run!'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/bin/thin:6:in `<top (required)>'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/bin/thin:23:in `load'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/bin/thin:23:in `<main>'
+Writing PID to tmp/pids/thin.0.pid
+Changing process privilege to matthewhaney:matthewhaney
+Exiting!
+/Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/daemonizing.rb:71:in `getgrnam': can't find group for matthewhaney (ArgumentError)
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/daemonizing.rb:71:in `change_privilege'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/controllers/controller.rb:67:in `start'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:203:in `run_command'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:159:in `run!'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/bin/thin:6:in `<top (required)>'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/bin/thin:23:in `load'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/bin/thin:23:in `<main>'
+Writing PID to tmp/pids/thin.0.pid
+Changing process privilege to matthewhaney:staff
+Using rack adapter
+Exiting!
+/Users/matthewhaney/bbb-iot/config.ru:4:in `require': cannot load such file -- /Users/matthewhaney/bbb-iot/config.ru/main.rb (LoadError)
+	from /Users/matthewhaney/bbb-iot/config.ru:4:in `block in <main>'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/rack-2.0.4/lib/rack/builder.rb:55:in `instance_eval'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/rack-2.0.4/lib/rack/builder.rb:55:in `initialize'
+	from /Users/matthewhaney/bbb-iot/config.ru:1:in `new'
+	from /Users/matthewhaney/bbb-iot/config.ru:1:in `<main>'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/rack/adapter/loader.rb:33:in `eval'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/rack/adapter/loader.rb:33:in `load'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/rack/adapter/loader.rb:42:in `for'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/controllers/controller.rb:170:in `load_adapter'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/controllers/controller.rb:74:in `start'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:203:in `run_command'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:159:in `run!'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/bin/thin:6:in `<top (required)>'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/bin/thin:23:in `load'
+	from /Users/matthewhaney/.rbenv/versions/2.4.2/bin/thin:23:in `<main>'
