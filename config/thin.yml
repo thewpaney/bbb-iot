@@ -1,6 +1,6 @@
 ---
-user: matthewhaney
-group: staff
+user: debian
+group: debian
 #user: www-data
 #group: www-data
 pid: tmp/pids/thin.pid
@@ -13,6 +13,7 @@ environment: production
 max_persistent_conns: 512
 servers: 1
 threaded: true
-daemonize: true
+daemonize: false
 socket: tmp/sockets/thin.sock
 tag: bbb-iot
+port: 3000

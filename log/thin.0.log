@@ -51,3 +51,157 @@ Exiting!
 	from /Users/matthewhaney/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/bin/thin:6:in `<top (required)>'
 	from /Users/matthewhaney/.rbenv/versions/2.4.2/bin/thin:23:in `load'
 	from /Users/matthewhaney/.rbenv/versions/2.4.2/bin/thin:23:in `<main>'
+Writing PID to tmp/pids/thin.0.pid
+Changing process privilege to matthewhaney:staff
+Exiting!
+/home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/daemonizing.rb:70:in `getpwnam': can't find user for matthewhaney (ArgumentError)
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/daemonizing.rb:70:in `change_privilege'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/controllers/controller.rb:67:in `start'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:203:in `run_command'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:159:in `run!'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/bin/thin:6:in `<top (required)>'
+	from /home/debian/.rbenv/versions/2.4.2/bin/thin:23:in `load'
+	from /home/debian/.rbenv/versions/2.4.2/bin/thin:23:in `<main>'
+Writing PID to tmp/pids/thin.0.pid
+Changing process privilege to debian:debian
+Using rack adapter
+Exiting!
+/home/debian/bbb-iot/config.ru:4:in `require': cannot load such file -- /home/debian/bbb-iot/config.ru/main.rb (LoadError)
+	from /home/debian/bbb-iot/config.ru:4:in `block in <main>'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/rack-2.0.4/lib/rack/builder.rb:55:in `instance_eval'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/rack-2.0.4/lib/rack/builder.rb:55:in `initialize'
+	from /home/debian/bbb-iot/config.ru:1:in `new'
+	from /home/debian/bbb-iot/config.ru:1:in `<main>'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/rack/adapter/loader.rb:33:in `eval'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/rack/adapter/loader.rb:33:in `load'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/rack/adapter/loader.rb:42:in `for'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/controllers/controller.rb:170:in `load_adapter'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/controllers/controller.rb:74:in `start'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:203:in `run_command'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:159:in `run!'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/bin/thin:6:in `<top (required)>'
+	from /home/debian/.rbenv/versions/2.4.2/bin/thin:23:in `load'
+	from /home/debian/.rbenv/versions/2.4.2/bin/thin:23:in `<main>'
+Writing PID to tmp/pids/thin.0.pid
+Changing process privilege to debian:debian
+Using rack adapter
+Exiting!
+/home/debian/bbb-iot/config.ru:4:in `require': /home/debian/bbb-iot/main.rb:33: syntax error, unexpected modifier_if, expecting ')' (SyntaxError)
+m, params[:pullmode].to_sym if params[:pullmode], params[:sl
+                              ^
+/home/debian/bbb-iot/main.rb:33: syntax error, unexpected modifier_if, expecting &. or :: or '[' or '.'
+], params[:slewrate].to_sym if params[:slewrate])
+                              ^
+/home/debian/bbb-iot/main.rb:33: syntax error, unexpected ')', expecting keyword_end
+].to_sym if params[:slewrate])
+                              ^
+/home/debian/bbb-iot/main.rb:52: syntax error, unexpected keyword_end, expecting end-of-input
+	from /home/debian/bbb-iot/config.ru:4:in `block in <main>'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/rack-2.0.4/lib/rack/builder.rb:55:in `instance_eval'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/rack-2.0.4/lib/rack/builder.rb:55:in `initialize'
+	from /home/debian/bbb-iot/config.ru:1:in `new'
+	from /home/debian/bbb-iot/config.ru:1:in `<main>'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/rack/adapter/loader.rb:33:in `eval'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/rack/adapter/loader.rb:33:in `load'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/rack/adapter/loader.rb:42:in `for'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/controllers/controller.rb:170:in `load_adapter'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/controllers/controller.rb:74:in `start'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:203:in `run_command'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:159:in `run!'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/bin/thin:6:in `<top (required)>'
+	from /home/debian/.rbenv/versions/2.4.2/bin/thin:23:in `load'
+	from /home/debian/.rbenv/versions/2.4.2/bin/thin:23:in `<main>'
+Writing PID to tmp/pids/thin.0.pid
+Changing process privilege to debian:debian
+Using rack adapter
+Exiting!
+/home/debian/bbb-iot/main.rb:4:in `require': cannot load such file -- mongoid (LoadError)
+	from /home/debian/bbb-iot/main.rb:4:in `<top (required)>'
+	from /home/debian/bbb-iot/config.ru:4:in `require'
+	from /home/debian/bbb-iot/config.ru:4:in `block in <main>'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/rack-2.0.4/lib/rack/builder.rb:55:in `instance_eval'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/rack-2.0.4/lib/rack/builder.rb:55:in `initialize'
+	from /home/debian/bbb-iot/config.ru:1:in `new'
+	from /home/debian/bbb-iot/config.ru:1:in `<main>'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/rack/adapter/loader.rb:33:in `eval'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/rack/adapter/loader.rb:33:in `load'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/rack/adapter/loader.rb:42:in `for'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/controllers/controller.rb:170:in `load_adapter'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/controllers/controller.rb:74:in `start'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:203:in `run_command'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:159:in `run!'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/bin/thin:6:in `<top (required)>'
+	from /home/debian/.rbenv/versions/2.4.2/bin/thin:23:in `load'
+	from /home/debian/.rbenv/versions/2.4.2/bin/thin:23:in `<main>'
+Writing PID to tmp/pids/thin.0.pid
+Changing process privilege to debian:debian
+Using rack adapter
+Thin web server (v1.7.2 codename Bachmanity)
+Maximum connections set to 1024
+Listening on tmp/sockets/thin.0.sock, CTRL+C to stop
+Exiting!
+/home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/eventmachine-1.2.5/lib/eventmachine.rb:532:in `start_unix_server': no unix-domain acceptor (RuntimeError)
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/eventmachine-1.2.5/lib/eventmachine.rb:532:in `start_server'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/eventmachine-1.2.5/lib/eventmachine.rb:561:in `start_unix_domain_server'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/backends/unix_server.rb:19:in `connect'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/backends/base.rb:63:in `block in start'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/eventmachine-1.2.5/lib/eventmachine.rb:194:in `run_machine'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/eventmachine-1.2.5/lib/eventmachine.rb:194:in `run'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/backends/base.rb:73:in `start'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/server.rb:162:in `start'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/controllers/controller.rb:87:in `start'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:203:in `run_command'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:159:in `run!'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/bin/thin:6:in `<top (required)>'
+	from /home/debian/.rbenv/versions/2.4.2/bin/thin:23:in `load'
+	from /home/debian/.rbenv/versions/2.4.2/bin/thin:23:in `<main>'
+Writing PID to tmp/pids/thin.0.pid
+Changing process privilege to debian:debian
+Using rack adapter
+Thin web server (v1.7.2 codename Bachmanity)
+Maximum connections set to 1024
+Listening on tmp/sockets/thin.0.sock, CTRL+C to stop
+Exiting!
+/home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/eventmachine-1.2.5/lib/eventmachine.rb:532:in `start_unix_server': no unix-domain acceptor (RuntimeError)
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/eventmachine-1.2.5/lib/eventmachine.rb:532:in `start_server'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/eventmachine-1.2.5/lib/eventmachine.rb:561:in `start_unix_domain_server'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/backends/unix_server.rb:19:in `connect'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/backends/base.rb:63:in `block in start'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/eventmachine-1.2.5/lib/eventmachine.rb:194:in `run_machine'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/eventmachine-1.2.5/lib/eventmachine.rb:194:in `run'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/backends/base.rb:73:in `start'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/server.rb:162:in `start'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/controllers/controller.rb:87:in `start'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:203:in `run_command'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/lib/thin/runner.rb:159:in `run!'
+	from /home/debian/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/thin-1.7.2/bin/thin:6:in `<top (required)>'
+	from /home/debian/.rbenv/versions/2.4.2/bin/thin:23:in `load'
+	from /home/debian/.rbenv/versions/2.4.2/bin/thin:23:in `<main>'
+Writing PID to tmp/pids/thin.0.pid
+Changing process privilege to debian:debian
+Using rack adapter
+Thin web server (v1.7.2 codename Bachmanity)
+Maximum connections set to 1024
+Listening on tmp/sockets/thin.0.sock, CTRL+C to stop
+Exiting!
+Writing PID to tmp/pids/thin.0.pid
+Changing process privilege to debian:debian
+Using rack adapter
+Thin web server (v1.7.2 codename Bachmanity)
+Maximum connections set to 1024
+Listening on tmp/sockets/thin.0.sock, CTRL+C to stop
+Exiting!
+Writing PID to tmp/pids/thin.0.pid
+Changing process privilege to debian:debian
+Using rack adapter
+Thin web server (v1.7.2 codename Bachmanity)
+Maximum connections set to 1024
+Listening on tmp/sockets/thin.0.sock, CTRL+C to stop
+Exiting!
+Writing PID to tmp/pids/thin.0.pid
+Changing process privilege to debian:debian
+Using rack adapter
+Thin web server (v1.7.2 codename Bachmanity)
+Maximum connections set to 1024
+Listening on tmp/sockets/thin.0.sock, CTRL+C to stop
+Exiting!
