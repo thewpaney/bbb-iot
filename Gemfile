@@ -10,8 +10,6 @@ gem 'sinatra-flash'
 gem 'thin'
 # Beefier web server
 # gem 'puma'
-# HTML As Markup Language extension
-gem 'haml'
 # For managing thin with Procfile
 gem 'foreman'
 # BeagleBone utilities (like GPIO control!)

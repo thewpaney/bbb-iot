@@ -1,0 +1,27 @@
+<h3>GPIO Control Panel</h3>
+<% @pins.each do |pin| %>
+<div class="w3-row" id="pin-control-<%= pin %>">
+  <div class="w3-col m1">
+    <span id="pin-name"><strong><%= pin %></strong></span>
+  </div>
+  <div class="w3-col m2">
+    <span id="dir-in" style="color: rgb(200,200,200);">In</span>|<span id="dir-out" style="color: rgb(200,200,200);">Out</span>|<span id="dir-dis">Disabled</span>
+    <span id="val-high" style="color: rgb(200,200,200);">High</span>|<span id="val-low" style="color: rgb(200,200,200);">Low</span>
+  </div>
+  <div class="w3-col m4">
+    Set pin mode:
+    <button onclick="pin_setup('<%= pin %>', 'IN')">Input</button>
+    <button onclick="pin_setup('<%= pin %>', 'OUT')">Output</button>
+    <button onclick="pin_disable('<%= pin %>')">Disabled</button>
+  </div>
+  <div class="w3-col m1">
+    <button id="read" onclick="pin_read('<%= pin %>')" disabled=true>Read pin</button>
+  </div>
+  <div class="w3-col m2">
+    Pin value:
+    <button id="clear" onclick="pin_write('<%= pin %>', 'LOW')" disabled=true>Clear</button>
+    <button id="set" onclick="pin_write('<%= pin %>', 'HIGH')" disabled=true>Set</button>
+  </div>
+</div>
+<% end %>
+    
