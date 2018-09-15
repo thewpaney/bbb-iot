@@ -1,0 +1,22 @@
+<script src="/pwm.js"></script>
+<h3>PWM Control Panel</h3>
+<% @pins.each do |pin| %>
+<div class="w3-row" id="pin-control-<%= pin %>">
+  <div class="w3-col m1">
+    <span id="pin-name"><strong><%= pin %></strong></span>
+  </div>
+  <div class="w3-col m2">
+    <span id="pwm">
+  </div>
+  <div>
+    <button id="enable" onclick="pwm_enable(<%= pin %>)">Enable</button>
+    <button id="disable" onclick="pwm_disable(<%= pin %>)" style="display: none;">Disable</button>
+  </div>
+  <div id="details" class="w3-col m2" style="display: none;">
+    <label for="f">Frequency:</label><input id="f" value="0">
+    <label for="dc">Duty Cycle:</label><input id="dc" value="0">
+    <button id="set" onclick="pwm_set(<%= pin %>)">Apply</button>
+  </div>
+</div>
+<% end %>
+    
